@@ -73,7 +73,7 @@ box39=new BlueBox(570,45,20,30);
 box40=new GreenBox(550,15,20,30)
 
 
-ball=new Ball(0,0,50);
+ball=new Ball(0,0,25);
 
 spring=new Projectile(ball.body,{x:150,y:200});
 
@@ -82,7 +82,7 @@ spring=new Projectile(ball.body,{x:150,y:200});
 
 ground1=new Ground(400,390,800,20);
 
-ground2=new Ground(550,160,220,20);
+ground2=new Ground(550,160,150,20);
 }
 
 function draw(){
